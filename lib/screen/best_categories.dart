@@ -63,43 +63,53 @@ class BestCategories extends StatelessWidget {
             // ),
             Row(
               children: [
-                RaisedButton(
-                    color: HexColor("000000"),
-                    child: Text(
-                      'FOR WOMEN',
-                      style: TextStyle(
-                          color: HexColor("ffffff"),
-                          fontWeight: FontWeight.bold),
-                    ),
-                    onPressed: () {},
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.horizontal(
-                            left: Radius.circular(30.0),
-                            right: Radius.circular(0.0)))),
-                RaisedButton(
-                    color: HexColor("000000"),
-                    child: Text(
-                      'FOR MEN',
-                      style: TextStyle(
-                          color: HexColor("a2a2a2"),
-                          fontWeight: FontWeight.bold),
-                    ),
-                    onPressed: () {},
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.horizontal(
-                            left: Radius.circular(0.0),
-                            right: Radius.circular(30.0)))),
+                ElevatedButton(
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(HexColor("000000")),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                            borderRadius: BorderRadius.horizontal(
+                                left: Radius.circular(30.0),
+                                right: Radius.circular(0.0))),
+                      )),
+                  child: Text(
+                    'FOR WOMEN',
+                    style: TextStyle(
+                        color: HexColor("ffffff"), fontWeight: FontWeight.bold),
+                  ),
+                  onPressed: () {},
+                ),
+                ElevatedButton(
+                  style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(HexColor("000000")),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                            borderRadius: BorderRadius.horizontal(
+                                left: Radius.circular(0.0),
+                                right: Radius.circular(30.0))),
+                      )),
+                  child: Text(
+                    'FOR MEN',
+                    style: TextStyle(
+                        color: HexColor("a2a2a2"), fontWeight: FontWeight.bold),
+                  ),
+                  onPressed: () {},
+                ),
               ],
               mainAxisSize: MainAxisSize.min,
             ),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
             ClipRRect(
               borderRadius: BorderRadius.circular(16.0),
               child: Wrap(
                 alignment: WrapAlignment.spaceBetween,
                 children: [
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
@@ -117,7 +127,7 @@ class BestCategories extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
@@ -136,7 +146,7 @@ class BestCategories extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
@@ -155,7 +165,7 @@ class BestCategories extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
@@ -173,7 +183,7 @@ class BestCategories extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
@@ -192,7 +202,7 @@ class BestCategories extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    height: MediaQuery.of(context).size.height / 2.5,
+                    height: MediaQuery.of(context).size.height / 4,
                     width: MediaQuery.of(context).size.width / 2.5,
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
