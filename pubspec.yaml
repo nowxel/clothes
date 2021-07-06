@@ -1,0 +1,50 @@
+name: clothes
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  fonts:
+    - family: SFProText
+      fonts:
+        - asset: fonts/FontsFree-Net-SFProText-Regular.ttf
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/img.png
+    - assets/images/img_center.png
+    - assets/images/img_left.png
+    - assets/images/img_right.png
+    - assets/images/img_1.png
+    - assets/images/img_2.png
+    - assets/images/img_3.png
+    - assets/images/img_4.png
+    - assets/images/img_5.png
+    - assets/images/img_6.png
+    - assets/images/img_categories_1.png
+    - assets/images/img_categories_2.png
+    - assets/images/img_categories_3.png
+    - assets/images/img_categories_4.png
+    - assets/images/img_categories_5.png
+    - assets/images/img_categories_6.png
+    - assets/images/bg_1.png
