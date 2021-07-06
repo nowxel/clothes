@@ -92,6 +92,7 @@ class BestCategories extends StatelessWidget {
               ],
               mainAxisSize: MainAxisSize.min,
             ),
+            SizedBox(height: 10,),
             ClipRRect(
               borderRadius: BorderRadius.circular(16.0),
               child: Wrap(
