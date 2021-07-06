@@ -64,9 +64,12 @@ class BestCategories extends StatelessWidget {
             Row(
               children: [
                 RaisedButton(
-                  color: HexColor("000000"),
-                    child: Text('FOR WOMEN', style: TextStyle(
-                        color: HexColor("ffffff"), fontWeight: FontWeight.bold),
+                    color: HexColor("000000"),
+                    child: Text(
+                      'FOR WOMEN',
+                      style: TextStyle(
+                          color: HexColor("ffffff"),
+                          fontWeight: FontWeight.bold),
                     ),
                     onPressed: () {},
                     shape: RoundedRectangleBorder(
@@ -74,9 +77,12 @@ class BestCategories extends StatelessWidget {
                             left: Radius.circular(30.0),
                             right: Radius.circular(0.0)))),
                 RaisedButton(
-                  color: HexColor("000000"),
-                    child: Text('FOR MEN', style: TextStyle(
-                        color: HexColor("a2a2a2"), fontWeight: FontWeight.bold),
+                    color: HexColor("000000"),
+                    child: Text(
+                      'FOR MEN',
+                      style: TextStyle(
+                          color: HexColor("a2a2a2"),
+                          fontWeight: FontWeight.bold),
                     ),
                     onPressed: () {},
                     shape: RoundedRectangleBorder(
@@ -115,8 +121,8 @@ class BestCategories extends StatelessWidget {
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
                       children: [
-
                         Text('COATS & JACKETS',
+                            textAlign: TextAlign.center,
                             style: TextStyle(fontWeight: FontWeight.bold)),
                         Text(
                           '762 Products',
@@ -135,6 +141,7 @@ class BestCategories extends StatelessWidget {
                     child: Column(
                       children: [
                         Text('JUMPSUITS & \nPLAYSUITS',
+                            textAlign: TextAlign.center,
                             style: TextStyle(fontWeight: FontWeight.bold)),
                         Text(
                           '291 Products',
@@ -152,7 +159,6 @@ class BestCategories extends StatelessWidget {
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
                       children: [
-
                         Text('KNITWEAR',
                             style: TextStyle(fontWeight: FontWeight.bold)),
                         Text(
@@ -172,6 +178,7 @@ class BestCategories extends StatelessWidget {
                     child: Column(
                       children: [
                         Text('NIGHTWEAR &\nPYGAMAS',
+                            textAlign: TextAlign.center,
                             style: TextStyle(fontWeight: FontWeight.bold)),
                         Text(
                           '201 Products',
@@ -189,7 +196,6 @@ class BestCategories extends StatelessWidget {
                     decoration: BoxDecoration(color: HexColor("f4f4f4")),
                     child: Column(
                       children: [
-
                         Text('SETS & OUTFITS',
                             style: TextStyle(fontWeight: FontWeight.bold)),
                         Text(
